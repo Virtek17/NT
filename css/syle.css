@@ -1,0 +1,734 @@
+body {
+   background-color: #011627;
+   color: white;
+}
+
+a {
+   transition: all 0.3s ease;
+}
+a:hover,
+a:focus {
+   color: #00c9e0;
+}
+
+button {
+   transition: all 0.4s ease;
+}
+
+button:hover{
+   transform: scale(1.02);
+}
+button:focus {
+   background-color: #059aaa;
+}
+
+.wrapper {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.header {
+   height: 100vh;
+   background-image: url('../img/header_bg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.container {
+   max-width: 1391px;
+   padding: 0 30px;
+   margin: 0 auto;
+   height: 100%;
+   position: relative;
+}
+
+.header__top {
+   padding-top: 75px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 190%;
+}
+
+.logo span {
+   color: #41EAD4;
+}
+
+.navigation {
+   display: flex;
+   gap: 32px;
+   align-items: center;
+}
+
+.header__loop {
+   cursor: pointer;
+}
+
+.header__btn {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 16px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+
+   border-radius: 48px;
+   width: 167px;
+   height: 62px;
+   color: white;
+   box-shadow: 5px 15px 40px 0 rgba(0, 201, 224, 0.2);
+   background: #00c9e0;
+}
+
+.header__main {
+   margin: 0 auto;
+   margin-top: 156px;
+   text-align: center;
+   max-width: 643px;
+
+
+
+}
+
+.header__main_title {
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 120px;
+   letter-spacing: -0.02em;
+}
+
+.header__main_subtitle {
+   margin-top: 34px;
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 18px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+}
+
+.header__main_description {
+   margin-top: 50px;
+   font-family: 'larsseit';
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 150%;
+   text-align: center;
+}
+
+.scroll {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 190%;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   transform: rotate(-90deg);
+   position: absolute;
+   bottom: 10%;
+   left: -3%;
+}
+
+.social-media {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: absolute;
+   right: 5%;
+   bottom: 10%;
+}
+
+/* trip */
+
+.trip {
+   padding-bottom: 100px;
+}
+
+.trip__header {
+   display: flex;
+   align-items: center;
+   gap: 33px;
+}
+
+.trip__title {
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 110%;
+   letter-spacing: -0.02em;
+   color: #fff;
+}
+
+.trip__subtitle {
+   font-family: 'larsseit';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: -0.02em;
+
+   max-width: 349px;
+}
+
+.trip__nav {
+   margin-top: 83px;
+}
+
+.trip__nav_items {
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 37px;
+   border-bottom: hsla(172, 80%, 59%, 0.3) 2px solid;
+}
+
+.trip__nav_item {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 110%;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: #fff;
+   opacity: 0.5;
+}
+
+.item-active {
+   color: #41ead4;
+   opacity: 1;
+}
+
+
+.trip__main {
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   position: relative;
+}
+
+
+
+
+
+.trip__main_gallery {
+   border-radius: 8px;
+   width: 486px;
+   height: 607px;
+   background-image: url('../img/img_desert.png');
+   position: relative;
+}
+
+.trip__absolut_content {
+   max-width: 210px;
+   position: absolute;
+   left: -20%;
+   top: 40%;
+}
+
+.cube-points {
+   position: absolute;
+   bottom: -9%;
+   left: -12%;
+   z-index: -1;
+}
+
+.grand-dunes {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 150%;
+   text-transform: uppercase;
+   letter-spacing: 0.15em;
+   color: #fff;
+}
+
+.trip__gallery-btn {
+   position: absolute;
+   bottom: 0;
+   right: -2px;
+}
+.gallery-btn {
+   width: 65px;
+   height: 65px;
+   background-color: #021c32;
+}
+.gallery-btn:nth-child(1) {
+   border-top-left-radius: 10px;
+}
+.gallery-btn:nth-child(2) {
+   border-bottom-right-radius: 10px;
+}
+
+.trip__main_info {
+   max-width: 485px;
+}
+
+.trip__main_title {
+   margin-top: 34px;
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 65px;
+   letter-spacing: -0.02em;
+   color: #fff;
+}
+
+.trip__main_subtitle {
+   margin-top: 34px;
+
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 150%;
+   letter-spacing: -0.02em;
+   color: #fff;
+}
+
+.trip__main_description {
+   margin-top: 34px;
+
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 150%;
+   letter-spacing: -0.02em;
+   color: #fff;
+}
+
+.trip__main_btn {
+   margin-top: 45px;
+
+   border-radius: 183px;
+   width: 282px;
+   height: 65px;
+   box-shadow: 5px 15px 40px 0 rgba(0, 201, 224, 0.2);
+   background: #00c9e0;
+
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 190%;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   color: white;
+}
+
+.trip__main_share {
+   background: url('../img/corner__down-right.svg') no-repeat bottom right;
+   padding: 0px 10px 20px 0;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+.trip__main_share-title {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 150%;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   color: #fff;
+   margin-bottom: 18px;
+}
+
+.trip__main_share-links {
+   display: flex;
+   gap: 23px;
+}
+
+
+/* About */
+
+
+.about {
+   margin-top: 245px;
+
+   
+}
+
+.about__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 82px;
+   background-image: url('../img/bg_points2.svg');
+   background-position: right center;
+   background-repeat: no-repeat;
+
+   position: relative;
+}
+
+.about__info {
+   max-width: 320px;
+}
+
+.about__info_title {
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 110%;
+   letter-spacing: -0.02em;
+   color: #fff;
+}
+
+.about__info_subtitle {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   letter-spacing: -0.02em;
+   color: #fff;
+
+   margin-top: 22px;
+}
+
+
+.about__info_subtitle p:nth-child(2),
+.about__info_subtitle p:nth-child(3) {
+   font-weight: 300;
+}
+
+.about__info_subtitle p {
+   margin-bottom: 24px;
+}
+
+.about__info_btn {
+   border-radius: 183px;
+   width: 282px;
+   height: 65px;
+   box-shadow: 5px 15px 40px 0 rgba(0, 201, 224, 0.2);
+   background: #00c9e0;
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 190%;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.about__img_grid {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   padding-right: 30px;
+   position: relative;
+}
+
+.about__img_grid img {
+   width: 100%;
+}
+
+.about__table {
+   border-radius: 8px;
+   width: 186px;
+   height: 75px;
+   box-shadow: 5px 15px 40px 0 rgba(0, 201, 224, 0.2);
+   background: #fff;
+
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 150%;
+   letter-spacing: 0.05em;
+   color: #000;
+
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+
+   position: absolute;
+   left: -7%;
+   top: 35%;
+}
+
+.blue {
+   color: #00c9e0;
+}
+
+/* thoughts */
+.thoughts {
+   margin-top: 238px;
+   position: relative;
+}
+
+.thoughts__vertical-line {
+   position: absolute;
+   top: -2%;
+   left: 50%;
+}
+
+.thoughts__container {
+   max-width: 1710px;
+   background-color: #061e31ce;
+   padding: 0 30px;
+   margin:  0 auto;
+}
+
+.thoughts__title {
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 110%;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: #fff;
+   padding-top: 100px;
+}
+
+.thoughts__subtitle {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 150%;
+   letter-spacing: 0.15em;
+   text-align: center;
+   color: #fff;
+   margin-top: 31px;
+}
+
+.thoughts__grid {
+   margin: 0 auto;
+   margin-top: 73px;
+   max-width: 1044px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 24px;
+}
+
+.grid-card {
+   max-width: 510px;
+   padding: 75px 74px 75px 102px;
+   background: url('../img/quotes.svg') no-repeat 10% 15%;
+   background-color: #08273f;
+
+}
+
+.grid-card__title {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 190%;
+   color: #fff;
+}
+
+.grid-card__subtitle {
+   font-family: 'larsseit';
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 190%;
+   color: #fff;
+   margin-top: 20px;
+}
+
+.grid-card__review {
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   margin-top: 25px;
+}
+
+.grid-card__review_txt {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 170%;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+.thoughts__footer {
+   margin-top: 150px;
+}  
+
+.thoughts__footer_title {
+   font-family: 'noe_display';
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 110%;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: #fff;
+}
+
+.thoughts__footer_subtitle {
+   max-width: 388px;
+   margin:  0 auto;
+   margin-top: 31px;
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 150%;
+   letter-spacing: 0.07em;
+   text-align: center;
+   color: #fff;
+}
+
+/* Footer */
+
+.footer {
+   margin-top: 285px;
+   position: relative;
+}
+
+.footer__row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.container__footer {
+   max-width: 1085px;
+   padding: 0 30px;
+   margin: 0 auto;
+}
+
+.footer__chapters {
+   display: flex;
+   gap: 120px;
+}
+
+.footer__point {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 18px;
+   text-transform: uppercase;
+   color: #fff;
+   padding-bottom: 20px;
+
+   background: url('../img/divider.svg') no-repeat bottom left;
+}
+
+.footer__links {
+   margin-top: 20px;
+}
+
+.footer__link {
+   margin-bottom: 20px;
+
+   font-family: 'larsseit';
+   font-weight: 400;
+   font-size: 15px;
+   color: #fff;
+}
+
+.footer__link:nth-child(4) {
+   margin-bottom: 0px;
+}
+
+.footer__follow {
+   display: flex;
+   flex-direction: column;
+   gap: 21px;
+}
+
+.footer__follow_txt {
+   font-family: 'larsseit';
+   font-weight: 700;
+   font-size: 18px;
+   text-transform: uppercase;
+   color: #fff;
+
+   padding-bottom: 20px;
+   background: url('../img/divider.svg') no-repeat left bottom;
+}
+
+.footer__follow_links {
+   display: flex;
+   gap: 18px;
+}
+
+
+.footer__copy {
+   font-family: 'larsseit';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 167%;
+   text-align: center;
+   color: #fff;
+
+   margin-top: 69px;
+   
+}
+
+.logo__footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+
+.footer__vertical-line {
+   position: absolute;
+   top: -50%;
+   left: 50%;
+}
+
+
+
+
+
+
+.accordeon__question {
+   width: 100%;
+   display: inline;
+   margin: 0;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   font-size: 18px;
+   padding-right: 20px;
+   position: relative;
+}
+
+.accordeon__question::after {
+   content: '\25BC';
+   font-size: 16px;
+   transition: all 0.3s ease;
+   position: absolute;
+   right: 0;
+}
+
+.accordeon__answer {
+   padding-top: 10px;
+   font-size: 16px;
+   max-height: 0;
+   overflow: hidden;
+   transition: all 0.4s ease-in;
+   opacity: 0;
+}
+
+.accordeon__items {
+   display: flex;
+   flex-direction: column;
+}
+
+.accordeon__item {
+   font-family: 'larsseit';
+   font-weight: 400;
+   font-size: 15px;
+   color: #fff;
+   margin-top: 20px;
+   display: none;
+}
+
+.accordeon__question--active::after {
+   transform: rotate(180deg);
+   transition: transform 0.3s ease;
+}
+.accordeon__answer--visible {
+   opacity: 1;
+   overflow: visible;
+   max-height: max-content;
+   transition: all 0.4s ease-in;
+}

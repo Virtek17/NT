@@ -1,0 +1,55 @@
+/* noe_displaybold */
+@font-face {
+   font-family: 'noe_display';
+   src: url('../fonts/noedisplay-bold-webfont.woff') format('woff2'),
+        url('../fonts/noedisplay-bold-webfont.woff2') format('woff');
+   font-weight: 700;
+   font-style: normal;
+
+}
+
+
+
+/* larsseitextrabold */
+@font-face {
+   font-family: 'larsseit';
+   src: url('../fonts/larsseit-extrabold-webfont.woff') format('woff2'),
+        url('../fonts/larsseit-extrabold-webfont.woff2') format('woff');
+   font-weight: 900;
+   font-style: normal;
+
+}
+
+
+
+/* larsseitlight */
+@font-face {
+   font-family: 'larsseit';
+   src: url('../fonts/larsseit-light-webfont.woff2') format('woff2'),
+        url('../fonts/larsseit-light-webfont.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+
+}
+
+
+
+/* larsseitbold */
+@font-face {
+   font-family: 'larsseit';
+   src: url('../fonts/larsseit-bold-webfont.woff2') format('woff2'),
+        url('../fonts/larsseit-bold-webfont.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}
+
+
+
+/* larsseitregular */
+@font-face {
+   font-family: 'larsseit';
+   src: url('../fonts/larsseit_regular-webfont.woff2') format('woff2'),
+        url('../fonts/larsseit_regular-webfont.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
